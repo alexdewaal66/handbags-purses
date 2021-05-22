@@ -3,7 +3,7 @@ import './App.css';
 import Button from './Button';
 import Product from "./Product";
 import Tile from "./Tile";
-import {first, second, third, fourth, brand, our_story} from "./assets/images";
+import {bag1, bag2, bag3, bag4, brand, our_story} from "./assets/images";
 
 
 function App() {
@@ -22,16 +22,16 @@ function App() {
                 </Button>
             </nav>
             <main>
-                <Product marker="Best seller" price="€400,-" image={first}>
+                <Product marker="Best seller" price="€400,-" image={bag1}>
                     The handy bag
                 </Product>
-                <Product marker="Best seller" price="€400,-" image={second}>
+                <Product marker="Best seller" price="€400,-" image={bag2}>
                     The stylish bag
                 </Product>
-                <Product marker="Best seller" price="€400,-" image={third}>
+                <Product marker="Best seller" price="€400,-" image={bag3}>
                     The simple bag
                 </Product>
-                <Product marker="Best seller" price="€400,-" image={fourth}>
+                <Product marker="Best seller" price="€400,-" image={bag4}>
                     The trendy bag
                 </Product>
             </main>

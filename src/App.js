@@ -57,7 +57,7 @@ function App() {
                         <p>Lorem ipsum dolor sit amet.</p>
                     </Tile>
                     <Tile>
-                        <img src={our_story} alt="female models hugging & smiling almost genuinely"/>
+                        <img src={our_story} alt="female models hugging & smiling"/>
                     </Tile>
                 </span>
             </footer>

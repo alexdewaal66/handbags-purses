@@ -54,7 +54,7 @@ function App() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus doloribus earum molestiae quis
                             recusandae rem velit. Aliquam consequatur hic qui!</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, obcaecati.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Quidquid latine dictum sit, altum videtur</p>
                     </Tile>
                     <Tile>
                         <img src={our_story} alt="female models hugging & smiling"/>

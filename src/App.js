@@ -22,16 +22,16 @@ function App() {
                 </Button>
             </nav>
             <main>
-                <Product marker="Best seller" price="€400,-" image={bag1}>
+                <Product marker="Best seller" price="400" image={bag1}>
                     The handy bag
                 </Product>
-                <Product marker="Best seller" price="€400,-" image={bag2}>
+                <Product marker="Best seller" price="250" image={bag2}>
                     The stylish bag
                 </Product>
-                <Product marker="Best seller" price="€400,-" image={bag3}>
+                <Product marker="Best seller" price="300" image={bag3}>
                     The simple bag
                 </Product>
-                <Product marker="Best seller" price="€400,-" image={bag4}>
+                <Product marker="Best seller" price="150" image={bag4}>
                     The trendy bag
                 </Product>
             </main>
@@ -61,6 +61,18 @@ function App() {
                     </Tile>
                 </span>
             </footer>
+            // useForm custom validation:
+            <input
+                id="xyz"
+                name="xyz"
+                type="xyz"
+                {...register("xyz", {
+                    validate: (value) => {
+                        test(value) || message
+                    },
+                })}
+            />
+
         </>
     );
 }

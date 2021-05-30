@@ -10,7 +10,7 @@ function Product(props) {
                     <img src={image}/>
                 </article>
                 <p>{children}</p>
-                <h4>{price}</h4>
+                <h4>€{price},-</h4>
             </div>
     );
 }

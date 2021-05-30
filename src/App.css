@@ -1,3 +1,7 @@
+:root {
+    --initial-tile-width: 350px;
+}
+
 main {
     margin: 24px 0;
     display: flex;
@@ -14,12 +18,21 @@ footer {
     flex-wrap: wrap;
 }
 
+footer span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: calc(2 * var(--initial-tile-width));
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 section {
     background-color: #F6F3EF;
     font-size: 10px;
     height: 400px;
     overflow: hidden;
-    flex-basis: 350px;
+    flex-basis: var(--initial-tile-width);
     flex-grow: 1;
     flex-shrink: 1;
     display: flex;
